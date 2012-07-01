@@ -1,0 +1,9 @@
+# base requirements:
+django==1.4
+django-jinja
+supervisor
+git+https://github.com/rfk/django-supervisor.git
+South
+gevent
+gunicorn
+# add your application-specific requirements here:
