@@ -10,5 +10,6 @@ django-admin.py startproject $PROJECT website
 chmod +x website/manage.py
 
 grep SECRET_KEY website/$PROJECT/settings.py | cut -c 14-
-echo "move settings.py.template into place: put your secret key there and :%s/__PROJECT__/$PROJECT"
+cp settings.py.template website/$PROJECT/settings.py
+echo "website/$PROJECT/settings.py: put the above secret key there and :%s/__PROJECT__/$PROJECT"
 
