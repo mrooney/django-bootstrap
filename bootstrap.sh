@@ -6,7 +6,5 @@ set -ex
 virtualenv env
 source env/bin/activate
 pip install -r requirements.txt
+django-admin.py startproject $PROJECT
 
-#cp $TWD/website/*.conf $NWD/website
-
-echo "Done, now edit requirements.txt"
