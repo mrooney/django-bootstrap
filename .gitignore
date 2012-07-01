@@ -1,0 +1,7 @@
+*.log
+*.pid
+*.pyc
+*.rdb
+*.sqlite
+*.templated
+env/
