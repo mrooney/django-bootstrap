@@ -6,4 +6,5 @@ git+https://github.com/rfk/django-supervisor.git
 South
 gevent
 gunicorn
+raven
 # add your application-specific requirements here:

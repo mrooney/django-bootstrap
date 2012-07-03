@@ -130,7 +130,10 @@ INSTALLED_APPS = (
     'south',
     'djsupervisor',
     'gunicorn',
+    'raven.contrib.django',
 )
+
+SENTRY_DSN = 'http://public:secret@example.com/1'
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
